@@ -5,9 +5,7 @@ resto=0
 until [[ $n -eq $m ]]; do
 	resto=n%2
 
-	if [[ $resto -eq 0 ]]; then
-		echo El numero $
+	if [[ $resto -ne 0 ]]; then
+		echo El numero $n es impar
 	fi
 done
-
-echo
